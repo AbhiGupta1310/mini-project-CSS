@@ -1,0 +1,80 @@
+* {
+    font-family: 'Noto Serif Makasar', serif;
+}
+
+div{ 
+    display: inline-block;
+}
+
+.header{
+    font-weight:900;
+    font-size: 60px;
+    width: 100%;
+    position: absolute;
+    padding-left: 100px;
+    align-content: center;
+    box-shadow: 0 0 3px rgba(0,0,0,1);
+}
+
+.header a{
+    color:black;
+    font-size:20px;
+    position: relative;
+    left:800px;
+    bottom: 10px;
+    font-weight: 300;
+
+}
+
+.search{
+    font-size: 20px;
+}
+
+.options {
+    line-height: 50px;
+    padding-left: 100px;
+    height: 50px;
+    width:100%;
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+    box-shadow: 0 0 3px rgba(0,0,0,1);
+
+}
+
+.options a {
+    color:black;
+    margin-right: 20px;
+
+}
+
+#break{
+    position: absolute;
+    top:130px;
+    height: 6px;
+    width: 100%;
+    background-color: black;
+}
+
+img{
+    position: absolute;
+    top:140px;
+    height: 500px;
+    width: 1230px;
+    margin-left: 90px;
+}
+
+.options .ok{
+    margin-left: 430px;
+    font-weight: 700;
+}
+
+#search span{
+    position: relative;
+    top:5px;
+}
+
+#signup span{
+    position: relative;
+    top:5px;
+}
